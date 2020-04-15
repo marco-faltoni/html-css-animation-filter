@@ -91,3 +91,38 @@
     80% {transform: rotate(320deg);}
     100% {transform: rotate(0deg);}
 }
+
+
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: moving;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes moving {
+    0% {position: absolute;
+        left: 10%}
+    70% {position: absolute;
+        left: 69%}
+    100% {position: absolute;
+        left: 10%}
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: moving-bottom;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes moving-bottom {
+    0% {position: absolute;
+        right: 20%}
+    70% {position: absolute;
+        right: 68%}
+    100% {position: absolute;
+        right: 20%}
+}
