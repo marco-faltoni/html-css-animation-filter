@@ -13,3 +13,11 @@
 .ex-2-square:active {
     width: 100%;
 }
+
+.ex-3-square {
+    transition: all 1s ease
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
+}
