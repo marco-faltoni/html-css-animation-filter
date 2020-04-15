@@ -15,9 +15,29 @@
 }
 
 .ex-3-square {
-    transition: all 1s ease
+    transition: all 1s ease;
 }
 
 .ex-3-square:hover {
     border-radius: 100%;
+}
+
+.ex-4-square {
+    transition: all 1s ease;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+.ex-5-square {
+    transition: all 1s ease;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
 }
